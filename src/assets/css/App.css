@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Header_Section
+{
+   background-image: url(../img/canvas.png);
+   height: calc(100vh + 53px);
+   background-repeat: no-repeat;
+   background-size: cover;
+  background-position: center center;
+  font-size: 32pt;
+   
+}
+
+.canvas p 
+{
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 256px;
+  text-align: center;
+}
+
+.myname
+{
+  color: #e31b6d;
+}
+
+#main_button
+{
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13pt;
+    padding: 10px 20px;
+    transition: all 0.5s;
+   
+}
+
+#button
+{
+  text-align: center;
+}
+
+.links
+{
+  display:inline-block; 
+}
+
+.links a
+{
+  text-decoration: none;
+  font-size: 16px;
+  text-align: left;
+  color:white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.link_wrap
+{
+ 
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: #1b242f;
+  border-bottom: 3px solid #04c2c9;
+  height: 50px;
+  text-align: left;
+  width: 100%;
+  z-index: 99;
+
+}
+
+.icons
+{
+  color: #e31b6d;
+  height: 2em;
+  padding-top: -5px;
+}
+
+#About h1
+{
+  font-size: 30pt;
+  color: #e31b6d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#About
+{
+
+  display: grid;
+  grid-template-columns: 25%,25%,25%,25%;
+  background-color: teal;
+}
