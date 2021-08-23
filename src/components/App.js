@@ -1,5 +1,6 @@
 import '../assets/css/App.css';
 import Header from "../components/Header";
+import "animate.css"
 
 function App() {
   return (

@@ -1,12 +1,9 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+
 
 .Header_Section
 {
    background-image: url(../img/canvas.png);
-   height: calc(100vh + 53px);
+   height: calc(100vh + 4px);
    background-repeat: no-repeat;
    background-size: cover;
   background-position: center center;
@@ -76,24 +73,134 @@
 
 .icons
 {
-  color: #e31b6d;
+  color: #3bc3c8;
   height: 2em;
   padding-top: -5px;
 }
 
 #About h1
 {
-  font-size: 30pt;
-  color: #e31b6d;
+  font-size: 35pt;
+  color:   #444649;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   margin-top: 10%;
 }
 
-#About
+.about_wrap
+{
+
+  
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  
+  text-align: center;
+  
+ 
+
+}
+
+.typewriter
+{
+  font-family: 'Old typewriter', sans-serif;
+                                                
+}
+
+.filters
+{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.Projects h1
+{
+  font-size: 35pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 10%;
+  background-color: #f5f5f5;
+
+}
+
+.webpics
+{
+  height: 200px;
+  width: 240px ;
+}
+
+.Web_Sites
 {
 
   display: grid;
-  grid-template-columns: 25%,25%,25%,25%;
-  background-color: teal;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.logo {
+  color: #3bc3c8;
+  height: 1em;
+  font-size: 56px;
+}
+
+
+.Contact{
+
+  background-color: #252934;
+}
+.Contact h1
+{
+  font-size: 35pt;
+  color:   #444649;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.Contact p
+{
+  
+  color: #04c2c9;
+  font-weight: 600;
+  text-align: center;
+}
+
+.Box1
+{
+  background: #1e242c;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 12pt;
+  margin-bottom: -10px;
+  outline: none;
+  padding: 10px 15px;
+  width: 40%;
+ 
+
+}
+
+.textarea {
+  display: block;
+  max-width: 40%;
+  min-width: 40%;
+  padding: calc(.75em - 1px);
+  resize: vertical;
+  background: #1e242c;
+}
+
+.forms
+{
+  padding-left: 500px;
+}
+
+.me
+{
+
+  margin-top: 5%;
 }
