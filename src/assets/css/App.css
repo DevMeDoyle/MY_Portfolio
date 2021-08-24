@@ -1,5 +1,4 @@
 
-
 .Header_Section
 {
    background-image: url(../img/canvas.png);
@@ -78,13 +77,18 @@
   padding-top: -5px;
 }
 
+#About
+{
+  background-color:  whitesmoke;
+}
+
 #About h1
 {
   font-size: 35pt;
   color:   #444649;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  margin-top: 10%;
+  padding: 10px;
 }
 
 .about_wrap
@@ -115,6 +119,9 @@
   margin-right: 10%;
 }
 
+.Projects{
+  background-color: #f5f5f5;
+}
 
 .Projects h1
 {
@@ -141,10 +148,10 @@
   margin-left: 10%;
   margin-right: 10%;
 }
-.logo {
+.logos {
   color: #3bc3c8;
-  height: 1em;
-  font-size: 56px;
+  height: 2em;
+  font-size: 40px;
 }
 
 
@@ -203,4 +210,61 @@
 {
 
   margin-top: 5%;
+}
+
+.mybio
+{
+  background-color: whitesmoke;
+}
+
+.footer
+{
+
+  background-color: #1b242f;
+}
+
+.socials
+{
+  text-align: center;
+  color: red;
+}
+
+.link_wrap
+{
+  position: absolute;
+}
+
+
+/* Skills Bar*/
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04c2c9;}
+.css {width: 80%; background-color: #04c2c9;}
+.js {width: 65%; background-color: #04c2c9;}
+.php {width: 60%; background-color: #04c2c9;}
+
+#mybio
+{
+
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#mybio div:nth-child(2)
+{
+  padding-top: 20px;
 }

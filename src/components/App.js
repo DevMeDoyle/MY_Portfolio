@@ -1,4 +1,5 @@
 import '../assets/css/App.css';
+import '../assets/css/Header.css'
 import Header from "../components/Header";
 import "animate.css"
 
